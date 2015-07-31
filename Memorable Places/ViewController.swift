@@ -124,6 +124,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func createAnAnotation(coordinate:CLLocationCoordinate2D, title:String) {
+        
         var annotation = MKPointAnnotation()
         
         annotation.coordinate = coordinate
